@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* body {
+  background-color: #FFFEFC
+} */
+.nav-wrapper {
+  font-family: 'Caveat', cursive;
+}
+.managers {
+  border-radius: 10px;
+}
+/* .managers {
+  background-color: #fae3d9;
+} */
+/* nav {
+  background-color: #FDF2F5
+} */
+.driver-contena {
+  /* margin-top: 2px; */
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  /* border: black 1px solid; */
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.dropzone-head {
+  /* background-color: light-blue lighten-1; */
+  /* height: 20px; */
+  /* border: black 1px solid; */
+  flex-basis: 100%;
+  /* flex-grow: 1; */
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.dropzone {
+  /* background-color: light-blue lighten-1; */
+  /* height: 70px; */
+  /* border: black 1px solid; */
+  flex-basis: 100%;
+  /* flex-grow: 3; */
+  display: flex;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.chip_size_box {
+  height: 37px;
+  width: 10px;
+}
