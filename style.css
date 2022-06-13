@@ -1,52 +1,44 @@
-
+/* ロゴ用フォント */
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-/* body {
-  background-color: #FFFEFC
-} */
 .nav-wrapper {
   font-family: 'Caveat', cursive;
 }
+.datepicker {
+  color: #5a5a5a;
+}
+.icon_and_text_side_by_side {
+  display:inline-block;
+  vertical-align:middle;
+  font-size: 1.2rem;
+  color: #5a5a5a;
+}
 .managers {
+  text-align : center;
+  background-color: #fff;
   border-radius: 10px;
 }
-/* .managers {
-  background-color: #fae3d9;
-} */
-/* nav {
-  background-color: #FDF2F5
-} */
 .driver-contena {
-  /* margin-top: 2px; */
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  align-items: stretch;
-  /* border: black 1px solid; */
+  background-color: #fff;
   margin-bottom: 5px;
   border-radius: 10px;
 }
 
 .dropzone-head {
-  /* background-color: light-blue lighten-1; */
-  /* height: 20px; */
-  /* border: black 1px solid; */
-  flex-basis: 100%;
-  /* flex-grow: 1; */
   padding-top: 5px;
   padding-left: 5px;
+  font-size: 1.2rem;
+  color: #5a5a5a;
 }
 .dropzone {
-  /* background-color: light-blue lighten-1; */
-  /* height: 70px; */
-  /* border: black 1px solid; */
-  flex-basis: 100%;
-  /* flex-grow: 3; */
-  display: flex;
+  /* flex-flow: row wrap; 横に並べる */
   padding-top: 5px;
   padding-left: 5px;
 }
 .chip_size_box {
   height: 37px;
   width: 10px;
+  margin: 1px;
+  display:initial
 }
+

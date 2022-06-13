@@ -1,4 +1,3 @@
-// 日付とチェックボックス値取得用 /////////////////////////
 //初期表示は非表示
 document.getElementById("after_select").style.display ="none";
 document.getElementById("driver-contena1").style.display ="none";
@@ -7,13 +6,9 @@ document.getElementById("driver-contena3").style.display ="none";
 document.getElementById("driver-contena4").style.display ="none";
 document.getElementById("driver-contena5").style.display ="none";
 
+// clickBtn1を押した時の動き /////////////////////////
+// 日付とチェックボックス値取得用
 function clickBtn1() {
-
-  // 日付取得
-  var car_day = document.getElementById('car_day').value
-
-  // var car_day = M.Datepicker.getInstance($('#car_day')).date;
-  document.getElementById("span0").textContent = car_day;
 
   // 担当者 取得
   const arr = [];
@@ -112,4 +107,5 @@ function onDrop(event) {
     .dataTransfer
     .clearData();
 }
+
 
