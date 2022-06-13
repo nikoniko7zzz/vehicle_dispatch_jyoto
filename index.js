@@ -83,7 +83,8 @@ function onDragStart(event) {
   event
     .currentTarget
     .style
-    .backgroundColor = '#29b6f6';
+    // .backgroundColor = '#29b6f6'; // ブルー
+    .backgroundColor = '#ef9a9a'; // うすいピンク
   event
     .currentTarget
     .style
