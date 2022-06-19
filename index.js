@@ -60,15 +60,15 @@ function clickBtn1() {
 
 
 /*
-JavaScript を使用したドラッグ＆ドロップ イベントの処理////////////////////
+JavaScript を使用したドラッグ＆ドロップ イベントの処理
   合計8つのイベントハンドラがあります。
-    ondrag、
+    ondrog、      実際のドロップを処理するコード
     ondragend、
     ondragenter、
     ondragexit、
     ondragleave、
-    ondragover、
-    ondragstart、
+    ondragover、  ドロップを許す処理
+    ondragstart、 要素をドラッグした時
     ondrop
   (この例では、これらすべてを必要とするわけではありません。)
 */
