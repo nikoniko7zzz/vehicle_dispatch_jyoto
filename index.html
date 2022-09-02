@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>jyoto 🏐</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body class="grey lighten-5">
 
 
@@ -33,10 +35,10 @@
   <div class="container">
 
     <!-- 日付選択 -->
-    <br>
+    <!-- <br> -->
     <span class="icon_and_text_side_by_side"><i class="material-icons">date_range</i></span>
     <div class="input-field icon_and_text_side_by_side">
-      <input id="car_day" type="text"  class="datepicker center-align">
+      <input id="car_day" type="text" class="datepicker center-align">
       <!-- <label for="car_day"><i class="material-icons">date_range</i></label> -->
     </div>
 
@@ -50,14 +52,14 @@
           <div class="col s4">
             <p>
               <label>
-                <input type="checkbox" name="chk" class="filled-in" value="千住号⑤" />
-                <span>千住さん</span>
+                <input type="checkbox" name="chk" class="filled-in" value="松尾号④" />
+                <span>松尾さん</span>
               </label>
             </p>
             <p>
               <label>
-                <input type="checkbox" name="chk" class="filled-in" value="香月号④" />
-                <span>香月さん</span>
+                <input type="checkbox" name="chk" class="filled-in" value="千住号⑤" />
+                <span>千住さん</span>
               </label>
             </p>
             <p>
@@ -68,24 +70,12 @@
             </p>
             <p>
               <label>
-                <input type="checkbox" name="chk" class="filled-in" value="松尾号④" />
-                <span>松尾さん</span>
+                <input type="checkbox" name="chk" class="filled-in" value="山田号③" />
+                <span>山田さん</span>
               </label>
             </p>
           </div>
           <div class="col s4">
-            <p>
-              <label>
-                <input type="checkbox" name="chk" class="filled-in" value="田中号⑥" />
-                <span>田中さん</span>
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="checkbox" name="chk" class="filled-in" value="中原号④" />
-                <span>中原さん</span>
-              </label>
-            </p>
             <p>
               <label>
                 <input type="checkbox" name="chk" class="filled-in" value="菅名号④" />
@@ -94,8 +84,14 @@
             </p>
             <p>
               <label>
-                <input type="checkbox" name="chk" class="filled-in" value="井上号④" />
-                <span>井上さん</span>
+                <input type="checkbox" name="chk" class="filled-in" value="田中号⑥" />
+                <span>田中さん</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="chk" class="filled-in" value="香月号④" />
+                <span>香月さん</span>
               </label>
             </p>
           </div>
@@ -120,12 +116,6 @@
             </p>
             <p>
               <label>
-                <input type="checkbox" name="chk" class="filled-in" value="真島号④" />
-                <span>真島さん</span>
-              </label>
-            </p>
-            <p>
-              <label>
                 <input type="checkbox" name="chk" class="filled-in" value="木塚号③" />
                 <span>木塚さん</span>
               </label>
@@ -136,7 +126,7 @@
 
       <br>
       <div class="row center">
-        <button class="btn waves-effect waves-light" type="submit" name="action" onclick="clickBtn1()" >決定
+        <button class="btn waves-effect waves-light" type="submit" name="action" onclick="clickBtn1()">決定
           <i class="material-icons right">send</i>
         </button>
       </div>
@@ -148,113 +138,42 @@
       <!-- <h6>メンバー</h6> -->
       <div class="row" style="margin-bottom: 5px;">
         <div class="col s4  center">
-          <div
-            id="名前 1"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 1
+          <div id="名前 1" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            松尾さくら
           </div>
-          <div
-            id="名前 2"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 2
+          <div id="名前 2" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            千住ゆうか
           </div>
-          <div
-            id="名前 3"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 3
+          <div id="名前 3" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            野田なつき
           </div>
-          <div
-            id="名前 4"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 4
+          <div id="名前 4" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            山田なつき
           </div>
         </div>
         <div class="col s4  center">
-          <div
-            id="名前 5"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 5
+          <div id="名前 5" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            菅名ゆうり
           </div>
-          <div
-            id="名前 6"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 6
+          <div id="名前 6" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            田中あいの
           </div>
-          <div
-            id="名前 7"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 7
-          </div>
-          <div
-            id="名前 8"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            名前 8
+          <div id="名前 7" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            香月　ゆあ
           </div>
         </div>
         <div class="col s4  center">
-          <div
-            id="子供 9"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            子供 9
+          <div id="子供 8" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            吉村めいさ
           </div>
-          <div
-            id="子供 10"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            子供 10
+          <div id="子供 9" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            遠藤　ゆめ
           </div>
-          <div
-            id="子供 11"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            子供 11
+          <div id="子供 10" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            八尋れいな
           </div>
-          <div
-            id="子供 12"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            子供 12
-          </div>
-          <div
-            id="子供 13"
-            class="chip"
-            draggable="true"
-            ondragstart="onDragStart(event);"
-            >
-            子供 13
+          <div id="子供 11" class="chip" draggable="true" ondragstart="onDragStart(event);">
+            木塚　ゆき
           </div>
         </div>
       </div>
@@ -264,11 +183,7 @@
           <div id="driver1" class="dropzone-head valign-wrapper">
             ドライバー1
           </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
+          <div class="dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
             <div class="chip_size_box"></div>
           </div>
         </div>
@@ -276,11 +191,7 @@
           <div id="driver2" class="dropzone-head valign-wrapper">
             ドライバー2
           </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
+          <div class="dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
             <div class="chip_size_box"></div>
           </div>
         </div>
@@ -288,11 +199,7 @@
           <div id="driver3" class="dropzone-head valign-wrapper">
             ドライバー3
           </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
+          <div class="dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
             <div class="chip_size_box"></div>
           </div>
         </div>
@@ -300,11 +207,7 @@
           <div id="driver4" class="dropzone-head valign-wrapper">
             ドライバー4
           </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
+          <div class="dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
             <div class="chip_size_box"></div>
           </div>
         </div>
@@ -312,44 +215,23 @@
           <div id="driver5" class="dropzone-head valign-wrapper">
             ドライバー5
           </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
+          <div class="dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
             <div class="chip_size_box"></div>
           </div>
         </div>
-        <div class="driver-contena  z-depth-1">
-          <div class="dropzone-head valign-wrapper">
-            個別
-          </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
-            <div
-              class="chip"
-              style="background-color: #ef9a9a; color: #fff;"
-            >
-              山田さん
-            </div>
-            <div class="chip_size_box"></div>
-            <div class="chip_size_box"></div>
-            <div class="chip_size_box"></div>
-          </div>
-        </div>
+        <br>
         <div class="driver-contena  z-depth-1">
           <div class="dropzone-head valign-wrapper">
             欠席
           </div>
-          <div
-            class="dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-          >
+          <div class="dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
             <div class="chip_size_box"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">連絡事項</label>
           </div>
         </div>
       </div>
@@ -359,40 +241,41 @@
 
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-  <!-- materialize用 -->
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script>
-    // datepicker用 ////////////////////////////////////
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.datepicker');
-      // var options   = {
-      // };
-      var instances = M.Datepicker.init(elems, options);
-    });
-
-
-    $(document).ready(function(){
-      $('.datepicker').datepicker({
-        i18n:{
-          //...公式ドキュメントの[Datepicker Internationalization options]の項目を指定できます。
-          months:["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
-          monthsShort:["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
-          weekdays: ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"],
-          weekdaysShort:  ["日", "月", "火", "水", "木", "金", "土"],
-          weekdaysAbbrev:  ["日", "月", "火", "水", "木", "金", "土"],
-        },
-        format: "yyyy/mm/dd(ddd)",
-        // onSelect: localizeDateFormat,
-        // onDraw: initDateFormat,
+    <!-- materialize用 -->
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+      // datepicker用 ////////////////////////////////////
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.datepicker');
+        // var options   = {
+        // };
+        var instances = M.Datepicker.init(elems, options);
       });
-    });
 
 
-  </script>
-  <script src="./index.js"></script>
-  </body>
+      $(document).ready(function () {
+        $('.datepicker').datepicker({
+          i18n: {
+            //...公式ドキュメントの[Datepicker Internationalization options]の項目を指定できます。
+            months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+            monthsShort: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+            weekdays: ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"],
+            weekdaysShort: ["日", "月", "火", "水", "木", "金", "土"],
+            weekdaysAbbrev: ["日", "月", "火", "水", "木", "金", "土"],
+          },
+          format: "yyyy/mm/dd(ddd)",
+          // onSelect: localizeDateFormat,
+          // onDraw: initDateFormat,
+        });
+      });
+
+
+    </script>
+    <script src="./index.js"></script>
+</body>
+
 </html>

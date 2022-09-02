@@ -39,7 +39,7 @@
 }
 .dropzone {
   /* flex-flow: row wrap; 横に並べる */
-  padding-top: 5px;
+  /* padding-top: 5px; */
   padding-left: 5px;
 }
 .chip_size_box {
@@ -48,4 +48,9 @@
   margin: 1px;
   display:initial
 }
-
+.chip{
+  height: 28px;
+  line-height: 28px;
+  padding: 0px 10px;
+  width: 85px;
+}
